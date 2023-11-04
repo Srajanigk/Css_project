@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags, title, and other head content -->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+        .topnav {
+            margin-top: 20px;
+            margin-left:0.2% ;
+            margin-right: 0.2%;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .topnav a {
+        margin-left: 15%;
+         float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+        
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+input, select, textarea {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #babbbb;
+  border-radius: 4px;
+  width: 400px;
+  height: 30px;
+  padding: 5px;
+}
+input[type="text"], input[type="password"] {
+  border: 1px solid #ccc;
+  background-color: #babbbb;
+  border-radius: 4px;
+  width: 400px;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+}
+
+input:hover {
+  border: 2px solid #010101;
+  padding: 4px;
+}
+form{
+    border: 5px solid #73c178;
+    border-radius: 10%;
+    width: 624px;
+    height: 450px;
+    border-left: 20px solid #ac5d5d;
+    border-right: 19px solid #d43636;
+    padding: 10px 0;
+    margin: 57px auto;
+    padding: 10pxx;
+}
+input[type="submit"] {
+    background-color: #5f3232;
+    color: #fff;
+    padding: 11px 41px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 21px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    margin: 10px;
+}
+input[type="submit"]:hover {
+  background-color: #becfe1;
+  margin: 10px;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+        </style>
+</head>
+<body background="Schoolbg.png"  style="background-size: cover; background-repeat: no-repeat;">
+    <br>
+    <img src="main.png" height="100px" width="100px" style="margin-left: 5%;">
+   
+    <header>
+        <!--<img src="Schoolicon.png" alt="School Icon" width="78" height="78" style="margin: 10px;;">-->
+        <center><h1>
+            Welcome to oxfordschool
+        </h1>
+    </center>
+        
+        
+
+        <div class="topnav">
+           
+            <a class="active" href="index.html">Home</a>
+            <a href="course.html">Courses</a>
+            <a href="Contact_us.html">Contact</a>
+            <a href="about.html">About</a>
+        
+          </div>
+          
+        
+        <nav>
+           
+        </nav>
+    </header>
+
+    
+    
+    <section id="contact">
+        <center>
+        <h2>Contact Us</h2>
+        <center>
+        <p>Please fill out the form below, and we'll get in touch with you.</p>
+        
+        <form action="contact_process.php" method="post">
+            <font size="5"><br>
+            <label for="name">Your Name :</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="address">Address :</label>
+            <input type="text" id="address" name="address" required><br>
+
+            <label for="phone">Phone Number :</label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="email">E-mail :</label>
+            <input type="text" id="email" name="email" required><br>
+     
+            <input type="submit" value="Submit" formaction="Thank_you.html">
+      
+            </font>
+            
+        </form>
+    </section>
+   
+
+    <section id="map">
+        <center>
+        <h2>Our Location</h2>
+        </center>
+        <!-- Embedding a Google Maps iframe -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-75.123456!3d40.987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA4JzQxLjYiTiA3NcKwMzUnMDIuMCJF!5e0!3m2!1sen!2sus!4v1558012345678!5m2!1sen!2sus" width="1250" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+<br>
+    <!-- Other sections and content for the "Home" page -->
+
+    <footer >
+        <font size="3">
+        <table class="contact-table" border="0px">
+            <tr>
+                <td><img src="email.png" alt="Email Icon" width="24" height="24"> Email: <a href="mailto:info@oxfordschool.com">info@oxfordschool.com </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><img src="phone.png" alt="Phone Icon" width="24" height="24"> Phone: <a href="tel:+1234567890">+918746388847</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><img src="instagram.png" alt="Instagram Icon" width="24" height="24"> Instagram: <a href="https://www.instagram.com/oxfordschool/">@oxfordschool</a></td>
+            </tr>
+        </table>
+        </font>
+
+        <div align="right" style="font-size: 15px;">
+            <p><font size="2"></font>&copy; 2023 Oxford School. All rights reserved.</p>
+        </div>
+        </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementsById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+</body>
+</html>

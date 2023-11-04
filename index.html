@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags, title, and other head content -->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+        .topnav {
+            margin-top: 20px;
+            margin-left:0.2% ;
+            margin-right: 0.2%;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .topnav a {
+        margin-left: 15%;
+         float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+ 
+        #navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+</style>
+</head>
+<body background="Schoolbg.png" style="background-size: cover; background-repeat: no-repeat;">
+    <br>
+    <img src="main.png" height="100px" width="100px" style="margin-left: 5%;">
+    
+    <header>
+        <!--<img src="Schoolicon.png" alt="School Icon" width="78" height="78" style="margin: 10px;;">-->
+         
+        <center><h1>
+            Welcome to oxfordschool
+        </h1>
+    </center>
+        
+
+        <div class="topnav" id="navbar">
+           
+            <a class="active" href="index.html">Home</a>
+            <a href="course.html">Courses</a>
+            <a href="Contact_us.html">Contact</a>
+            <a href="about.html">About</a>
+        
+          </div>
+          
+        
+        <nav>
+           
+        </nav>
+    </header>
+
+    
+    
+    <section id="home">
+       
+       <center><big><i><p>Welcome to Oxford School! We provide quality education to students of all ages.</p></i></big></center>
+       <center><img src="school.png" alt="School Building"></center>
+    </section>
+
+    <!-- Other sections and content for the "Home" page -->
+
+    <footer>
+        <table class="contact-table" border="0px">
+            <tr>
+                <td><img src="email.png" alt="Email Icon" width="24" height="24"> Email: <a href="mailto:info@oxfordschool.com">info@oxfordschool.com </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><img src="phone.png" alt="Phone Icon" width="24" height="24"> Phone: <a href="tel:+1234567890">+918746388847</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><img src="instagram.png" alt="Instagram Icon" width="24" height="24"> Instagram: <a href="https://www.instagram.com/oxfordschool/">@oxfordschool</a></td>
+            </tr>
+        </table>
+
+        <div align="right" style="font-size: 15px;">
+            <p><font size="2"></font>&copy; 2023 Oxford School. All rights reserved.</p>
+        </div>
+        </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+</body>
+</html>
